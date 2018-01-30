@@ -1,5 +1,5 @@
 # CnnTextClassifier
- Character-level text classification using a convolutional neural network built with Keras.
+Character-level text classification using a convolutional neural network built with Keras.
  
 Roughly inspired by Zhang et al. "Character-level Convolutional Networks for Text Classification" (https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf). 
 
