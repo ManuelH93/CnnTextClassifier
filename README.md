@@ -7,12 +7,17 @@ Implemented model uses a simplified architecture adapted for my use case (obfusc
 
 # Data
 xtrain.txt - training examples
+
 ytrain.txt - training labels
+
 
 xtest.txt - examples for which predictions are expected
 
 # Requirements
 python 3
+
 keras
+
 scikit-learn
+
 numpy
