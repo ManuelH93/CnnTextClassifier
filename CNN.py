@@ -11,8 +11,12 @@ from sklearn.cross_validation import train_test_split
 # preprocessing
 #---------------
 # Load data
+
+# Training
 lines_train = [line.rstrip('\n') for line in open('xtrain_obfuscated.txt')]
 lines_test = [line.rstrip('\n') for line in open('xtest_obfuscated.txt')]
+
+# Test
 labels_train = [line.rstrip('\n') for line in open('ytrain.txt')]
 
 # Get Unique characters and labels
@@ -115,7 +119,7 @@ model.fit(X_train, y_train,
 # Predictions
 #-------------
 
-#model.load_weights('sap_offline_challenge.hdf5')
+#model.load_weights('textclassifier.hdf5')
 
 y_predict = model.predict_classes(X_predict)
 
