@@ -13,8 +13,8 @@ from sklearn.cross_validation import train_test_split
 # Load data
 
 # Training
-lines_train = [line.rstrip('\n') for line in open('xtrain_obfuscated.txt')]
-lines_test = [line.rstrip('\n') for line in open('xtest_obfuscated.txt')]
+lines_train = [line.rstrip('\n') for line in open('xtrain.txt')]
+lines_test = [line.rstrip('\n') for line in open('xtest.txt')]
 
 # Test
 labels_train = [line.rstrip('\n') for line in open('ytrain.txt')]
@@ -66,9 +66,6 @@ print(X.shape, y.shape)
 X_train = X
 y_train = y
 
-# Train test split used for validation during parameter tuning
-# --> not used in final model to include as much data as possible
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1)
 
 #---------------------------------
 # Model construction and training
