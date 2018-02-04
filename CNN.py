@@ -5,7 +5,6 @@ from keras.callbacks import EarlyStopping, ModelCheckpoint
 from keras.preprocessing import sequence
 from keras.utils import np_utils
 from keras.models import Sequential
-from sklearn.cross_validation import train_test_split
 
 #---------------
 # preprocessing
