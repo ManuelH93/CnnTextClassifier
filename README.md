@@ -6,6 +6,8 @@ Roughly inspired by Zhang et al. "Character-level Convolutional Networks for Tex
 Implemented model uses a simplified architecture adapted for my use case (obfuscated text). Parameters and network topology probably need to be adjusted for your use case.
 
 # Data
+Data can be supllied via the following text files (not included):  
+
 xtrain.txt - training examples  
 ytrain.txt - training labels
 
@@ -13,6 +15,6 @@ xtest.txt - examples for which predictions are expected
 
 # Requirements
 python 3  
-keras  
-scikit-learn  
 numpy  
+keras  
+
